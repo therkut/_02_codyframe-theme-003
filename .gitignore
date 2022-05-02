@@ -3,6 +3,5 @@ node_modules
 config.php
 package-lock.json
 
-
 main/** != main/css/style.min.css
 main/** != main/js/script.min.js
