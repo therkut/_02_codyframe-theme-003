@@ -1,0 +1,438 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script>document.getElementsByTagName("html")[0].className += " js";</script>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <title>Get Started | myWebsite</title>
+</head>
+<body>
+  <div class="container max-width-lg padding-y-lg"> 
+    <div class="grid gap-y-0@sm">
+       <!-- //header-->
+       <header class="f-header js-f-header position-relative border-bottom border-1 border-contrast-lower">
+        <div class="f-header__mobile-content container max-width-lg">
+          <a href="index.html" class="f-header__logo">
+            <svg width="104" height="30" viewBox="0 0 104 30">
+              <title>Go to homepage</title>
+              <path d="M37.54 24.08V3.72h4.92v16.37h8.47v4zM60.47 24.37a7.82 7.82 0 01-5.73-2.25 8.36 8.36 0 01-2-5.62 8.32 8.32 0 012.08-5.71 8 8 0 015.64-2.18 8.07 8.07 0 015.68 2.2 8.49 8.49 0 012 5.69 8.63 8.63 0 01-1.78 5.38 7.6 7.6 0 01-5.89 2.49zm0-3.67c2.42 0 2.73-3 2.73-4.23s-.31-4.26-2.73-4.26-2.79 3-2.79 4.26.32 4.23 2.82 4.23zM95.49 24.37a7.82 7.82 0 01-5.73-2.25 8.36 8.36 0 01-2-5.62 8.32 8.32 0 012.08-5.71 8.4 8.4 0 0111.31 0 8.43 8.43 0 012 5.69 8.6 8.6 0 01-1.77 5.38 7.6 7.6 0 01-5.89 2.51zm0-3.67c2.42 0 2.73-3 2.73-4.23s-.31-4.26-2.73-4.26-2.8 3-2.8 4.26.31 4.23 2.83 4.23zM77.66 30c-5.74 0-7-3.25-7.23-4.52l4.6-.26c.41.91 1.17 1.41 2.76 1.41a2.45 2.45 0 002.82-2.53v-2.68a7 7 0 01-1.7 1.75 6.12 6.12 0 01-5.85-.08c-2.41-1.37-3-4.25-3-6.66 0-.89.12-3.67 1.45-5.42a5.67 5.67 0 014.64-2.4c1.2 0 3 .25 4.46 2.82V8.81h4.85v15.33a5.2 5.2 0 01-2.12 4.32A9.92 9.92 0 0177.66 30zm.15-9.66c2.53 0 2.81-2.69 2.81-3.91s-.31-4-2.81-4-2.81 2.8-2.81 4 .27 3.91 2.81 3.91zM55.56 3.72h9.81v2.41h-9.81z" fill="var(--color-contrast-higher)" />
+              <circle cx="15" cy="15" r="15" fill="var(--color-primary)" />
+            </svg>
+          </a>
+          <button class="reset anim-menu-btn js-anim-menu-btn f-header__nav-control js-tab-focus" aria-label="Toggle menu">
+            <i class="anim-menu-btn__icon anim-menu-btn__icon--close" aria-hidden="true"></i>
+          </button>
+        </div>
+        <div class="f-header__nav" role="navigation">
+          <div class="f-header__nav-grid justify-between@md container max-width-lg">
+            <div class="f-header__nav-logo-wrapper flex-grow flex-basis-0">
+              <a href="index.html" class="f-header__logo">
+                <svg width="104" height="30" viewBox="0 0 104 30">
+                  <title>Go to homepage</title>
+                  <path d="M37.54 24.08V3.72h4.92v16.37h8.47v4zM60.47 24.37a7.82 7.82 0 01-5.73-2.25 8.36 8.36 0 01-2-5.62 8.32 8.32 0 012.08-5.71 8 8 0 015.64-2.18 8.07 8.07 0 015.68 2.2 8.49 8.49 0 012 5.69 8.63 8.63 0 01-1.78 5.38 7.6 7.6 0 01-5.89 2.49zm0-3.67c2.42 0 2.73-3 2.73-4.23s-.31-4.26-2.73-4.26-2.79 3-2.79 4.26.32 4.23 2.82 4.23zM95.49 24.37a7.82 7.82 0 01-5.73-2.25 8.36 8.36 0 01-2-5.62 8.32 8.32 0 012.08-5.71 8.4 8.4 0 0111.31 0 8.43 8.43 0 012 5.69 8.6 8.6 0 01-1.77 5.38 7.6 7.6 0 01-5.89 2.51zm0-3.67c2.42 0 2.73-3 2.73-4.23s-.31-4.26-2.73-4.26-2.8 3-2.8 4.26.31 4.23 2.83 4.23zM77.66 30c-5.74 0-7-3.25-7.23-4.52l4.6-.26c.41.91 1.17 1.41 2.76 1.41a2.45 2.45 0 002.82-2.53v-2.68a7 7 0 01-1.7 1.75 6.12 6.12 0 01-5.85-.08c-2.41-1.37-3-4.25-3-6.66 0-.89.12-3.67 1.45-5.42a5.67 5.67 0 014.64-2.4c1.2 0 3 .25 4.46 2.82V8.81h4.85v15.33a5.2 5.2 0 01-2.12 4.32A9.92 9.92 0 0177.66 30zm.15-9.66c2.53 0 2.81-2.69 2.81-3.91s-.31-4-2.81-4-2.81 2.8-2.81 4 .27 3.91 2.81 3.91zM55.56 3.72h9.81v2.41h-9.81z" fill="var(--color-contrast-higher)" />
+                  <circle cx="15" cy="15" r="15" fill="var(--color-primary)" />
+                </svg>
+              </a>
+            </div>
+            <ul class="f-header__list flex-grow flex-basis-0 justify-center@md">
+              <li class="f-header__item">
+                <a href="#0" class="f-header__link">About</a>
+              </li>
+              <li class="f-header__item">
+                <a href="#0" class="f-header__link">
+                  <span>Solutions</span>
+                  <svg class="f-header__dropdown-icon icon" aria-hidden="true" viewBox="0 0 12 12">
+                    <path d="M9.943,4.269A.5.5,0,0,0,9.5,4h-7a.5.5,0,0,0-.41.787l3.5,5a.5.5,0,0,0,.82,0l3.5-5A.5.5,0,0,0,9.943,4.269Z" />
+                  </svg>
+                </a>
+                <ul class="f-header__dropdown">
+                  <li>
+                    <a href="#0" class="f-header__dropdown-link">Sub Nav Item One</a>
+                  </li>
+                  <li>
+                    <a href="#0" class="f-header__dropdown-link">Sub Nav Item Two</a>
+                  </li>
+                  <li>
+                    <a href="#0" class="f-header__dropdown-link">Sub Nav Item Three</a>
+                  </li>
+                  <li>
+                    <a href="#0" class="f-header__dropdown-link">Sub Nav Item Four</a>
+                  </li>
+                  <li>
+                    <a href="#0" class="f-header__dropdown-link">Sub Nav Item Five</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="f-header__item">
+                <a href="#0" class="f-header__link">Blog</a>
+              </li>
+              <li class="f-header__item">
+                <a href="detail.html" class="f-header__link">Article</a>
+              </li>
+              <li class="f-header__item">
+                <a href="#0" class="f-header__link">Contact</a>
+              </li>
+              <li class="f-header__item f-header__item--divider" aria-hidden="true"></li>
+              <li class="f-header__item">
+                <form class="expandable-search  js-expandable-search">
+                  <label class="sr-only" for="expandable-search">Search</label>
+                  <input class="reset expandable-search__input js-expandable-search__input" type="search" name="expandable-search" id="expandable-search" placeholder="Search...">
+                  <button class="reset expandable-search__btn">
+                    <svg class="icon" viewBox="0 0 24 24">
+                      <title>Search</title>
+                      <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+                        <circle cx="10" cy="10" r="8" />
+                        <line x1="16" y1="16" x2="22" y2="22" />
+                      </g>
+                    </svg>
+                  </button>
+                </form>
+              </li>
+              <li class="f-header__item">
+                <ul class="radio-switch js-radio-switch" id="switch-light-dark">
+                  <li class="radio-switch__item">
+                    <input class="radio-switch__input sr-only" type="radio" name="radio-switch-name" id="radio-1" checked="" value="light">
+                    <label class="radio-switch__label" for="radio-1">
+                      <svg class="icon icon--xs" viewBox="0 0 16 16">
+                        <title>Enable light mode</title>
+                        <path d="M7 0h2v2H7zM12.88 1.637l1.414 1.415-1.415 1.413-1.414-1.414zM14 7h2v2h-2zM12.95 14.433l-1.415-1.414 1.414-1.414 1.415 1.413zM7 14h2v2H7zM2.98 14.363L1.566 12.95l1.415-1.414 1.414 1.415zM0 7h2v2H0zM3.05 1.707L4.465 3.12 3.05 4.535 1.636 3.121z"></path>
+                        <path d="M8 4C5.8 4 4 5.8 4 8s1.8 4 4 4 4-1.8 4-4-1.8-4-4-4z"></path>
+                      </svg>
+                    </label>
+                  </li>
+                  <li class="radio-switch__item">
+                    <input class="radio-switch__input sr-only" type="radio" name="radio-switch-name" id="radio-2" value="dark">
+                    <label class="radio-switch__label" for="radio-2">
+                      <svg class="icon icon--xs" viewBox="0 0 16 16">
+                        <title>Enable dark mode</title>
+                        <path d="M6,0C2.5,0.9,0,4.1,0,7.9C0,12.4,3.6,16,8.1,16c3.8,0,6.9-2.5,7.9-6C9.9,11.7,4.3,6.1,6,0z"></path>
+                      </svg>
+                    </label>
+                    <div aria-hidden="true" class="radio-switch__marker"></div>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <!-- //aside-->
+      <aside class="col-3@sm bg border-right ">
+        <div class="print:is-hidden display@xs">
+          <nav class="sidenav padding-y-sm js-sidenav">
+            <div class="sidenav__label margin-bottom-xxxs">
+              <span class="text-sm color-contrast-medium text-xs@md">Main</span>
+            </div>
+            
+            <ul class="sidenav__list">
+              <li class="sidenav__item">
+                <a href="#0" class="sidenav__link">
+                  <svg class="icon sidenav__icon" aria-hidden="true" viewBox="0 0 16 16"><g><path d="M6,0H1C0.4,0,0,0.4,0,1v5c0,0.6,0.4,1,1,1h5c0.6,0,1-0.4,1-1V1C7,0.4,6.6,0,6,0z M5,5H2V2h3V5z"></path><path d="M15,0h-5C9.4,0,9,0.4,9,1v5c0,0.6,0.4,1,1,1h5c0.6,0,1-0.4,1-1V1C16,0.4,15.6,0,15,0z M14,5h-3V2h3V5z"></path><path d="M6,9H1c-0.6,0-1,0.4-1,1v5c0,0.6,0.4,1,1,1h5c0.6,0,1-0.4,1-1v-5C7,9.4,6.6,9,6,9z M5,14H2v-3h3V14z"></path><path d="M15,9h-5c-0.6,0-1,0.4-1,1v5c0,0.6,0.4,1,1,1h5c0.6,0,1-0.4,1-1v-5C16,9.4,15.6,9,15,9z M14,14h-3v-3h3V14z"></path></g></svg>
+                  <span class="sidenav__text text-sm@md">Dashboard</span>
+        
+                  <span class="sidenav__counter">12 <i class="sr-only">notifications</i></span>
+                </a>
+        
+                <button class="reset sidenav__sublist-control js-sidenav__sublist-control js-tab-focus" aria-label="Toggle sub navigation">
+                  <svg class="icon" viewBox="0 0 12 12"><polygon points="4 3 8 6 4 9 4 3"/></svg>
+                </button>
+        
+                <ul class="sidenav__list">
+                  <li class="sidenav__item">
+                    <a href="#0" class="sidenav__link">
+                      <span class="sidenav__text text-sm@md">New widget</span>
+                    </a>
+                  </li>
+        
+                  <li class="sidenav__item">
+                    <a href="#0" class="sidenav__link">
+                      <span class="sidenav__text text-sm@md">Analytics</span>
+                    </a>
+                  </li>
+                </ul>
+        
+              </li>
+        
+              <li class="sidenav__item sidenav__item--expanded">
+                <a href="#0" class="sidenav__link" aria-current="page">
+                  <svg class="icon sidenav__icon" aria-hidden="true" viewBox="0 0 16 16"><g><path d="M14,7H2v7c0,0.6,0.4,1,1,1h10c0.6,0,1-0.4,1-1V7z"></path><rect y="1" width="16" height="4"></rect></g></svg>
+                  <span class="sidenav__text text-sm@md">Products</span>
+                </a>
+        
+                <button class="reset sidenav__sublist-control js-sidenav__sublist-control js-tab-focus" aria-label="Toggle sub navigation">
+                  <svg class="icon" viewBox="0 0 12 12"><polygon points="4 3 8 6 4 9 4 3"/></svg>
+                </button>
+        
+                <ul class="sidenav__list">
+                  <li class="sidenav__item">
+                    <a href="#0" class="sidenav__link">
+                      <span class="sidenav__text text-sm@md">Add new</span>
+                    </a>
+                  </li>
+        
+                  <li class="sidenav__item">
+                    <a href="#0" class="sidenav__link">
+                      <span class="sidenav__text text-sm@md">Categories</span>
+                    </a>
+                  </li>
+                </ul>
+              </li>
+        
+              <li class="sidenav__item">
+                <a href="#0" class="sidenav__link">
+                  <svg class="icon sidenav__icon" aria-hidden="true" viewBox="0 0 16 16"><g><path d="M14,6.883V13H2V6.82L0,5.695V14c0,0.553,0.448,1,1,1h14c0.552,0,1-0.447,1-1V5.783L14,6.883z"></path><path d="M15,1H1C0.4,1,0,1.4,0,2v1.4l8,4.5l8-4.4V2C16,1.4,15.6,1,15,1z"></path></g></svg>
+                  <span class="sidenav__text text-sm@md">Messages</span>
+        
+                  <span class="sidenav__counter">18 <i class="sr-only">notifications</i></span>
+                </a>
+              </li>
+            </ul>
+        
+            <div class="sidenav__divider margin-y-xs" role="presentation"></div>
+        
+            <div class="sidenav__label margin-bottom-xxxs">
+              <span class="text-sm color-contrast-medium text-xs@md">Other</span>
+            </div>
+        
+            <ul class="sidenav__list">
+              <li class="sidenav__item">
+                <a href="#0" class="sidenav__link">
+                  <svg class="icon sidenav__icon" aria-hidden="true" viewBox="0 0 16 16"><g><circle cx="6" cy="8" r="2"></circle><path d="M10,2H6C2.7,2,0,4.7,0,8s2.7,6,6,6h4c3.3,0,6-2.7,6-6S13.3,2,10,2z M10,12H6c-2.2,0-4-1.8-4-4s1.8-4,4-4h4 c2.2,0,4,1.8,4,4S12.2,12,10,12z"></path></g></svg>
+                  <span class="sidenav__text text-sm@md">Settings</span>
+                </a>
+              </li>
+        
+              <li class="sidenav__item">
+                <a href="#0" class="sidenav__link">
+                  <svg class="icon sidenav__icon" aria-hidden="true" viewBox="0 0 16 16"><g><path d="M12.25,8.231C11.163,9.323,9.659,10,8,10S4.837,9.323,3.75,8.231C1.5,9.646,0,12.145,0,15v1h16 v-1C16,12.145,14.5,9.646,12.25,8.231z"></path><circle cx="8" cy="4" r="4"></circle></g></svg>
+                  <span class="sidenav__text text-sm@md">Account</span>
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <!-- @social-->
+        <section class="socials border-top margin-bottom-lg">
+          <div class="sidenav__label margin-bottom-xxs">
+            <span class="text-sm color-contrast-medium text-xs@md">Follow us.</span>
+          </div>
+          <ul class="socials__btns flex items-center gap-xs padding-x-xs@lg margin-left-0@lg margin-left-lg">
+            <li>
+              <a href="#0">
+                <svg class="icon" viewBox="0 0 32 32">
+                  <title>Follow us on Twitter</title>
+                  <g>
+                    <path d="M32,6.1c-1.2,0.5-2.4,0.9-3.8,1c1.4-0.8,2.4-2.1,2.9-3.6c-1.3,0.8-2.7,1.3-4.2,1.6C25.7,3.8,24,3,22.2,3 c-3.6,0-6.6,2.9-6.6,6.6c0,0.5,0.1,1,0.2,1.5C10.3,10.8,5.5,8.2,2.2,4.2c-0.6,1-0.9,2.1-0.9,3.3c0,2.3,1.2,4.3,2.9,5.5 c-1.1,0-2.1-0.3-3-0.8c0,0,0,0.1,0,0.1c0,3.2,2.3,5.8,5.3,6.4c-0.6,0.1-1.1,0.2-1.7,0.2c-0.4,0-0.8,0-1.2-0.1 c0.8,2.6,3.3,4.5,6.1,4.6c-2.2,1.8-5.1,2.8-8.2,2.8c-0.5,0-1.1,0-1.6-0.1C2.9,27.9,6.4,29,10.1,29c12.1,0,18.7-10,18.7-18.7 c0-0.3,0-0.6,0-0.8C30,8.5,31.1,7.4,32,6.1z"></path>
+                  </g>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a href="#0">
+                <svg class="icon" viewBox="0 0 32 32">
+                  <title>Follow us on Facebook</title>
+                  <path d="M32,16A16,16,0,1,0,13.5,31.806V20.625H9.438V16H13.5V12.475c0-4.01,2.389-6.225,6.043-6.225a24.644,24.644,0,0,1,3.582.312V10.5H21.107A2.312,2.312,0,0,0,18.5,13v3h4.438l-.71,4.625H18.5V31.806A16,16,0,0,0,32,16Z"></path>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a href="#0">
+                <svg class="icon" viewBox="0 0 32 32">
+                  <title>Follow us on Youtube</title>
+                  <path d="M31.7,9.6c0,0-0.3-2.2-1.3-3.2c-1.2-1.3-2.6-1.3-3.2-1.4C22.7,4.7,16,4.7,16,4.7h0c0,0-6.7,0-11.2,0.3 c-0.6,0.1-2,0.1-3.2,1.4c-1,1-1.3,3.2-1.3,3.2S0,12.2,0,14.8v2.4c0,2.6,0.3,5.2,0.3,5.2s0.3,2.2,1.3,3.2c1.2,1.3,2.8,1.2,3.5,1.4 C7.7,27.2,16,27.3,16,27.3s6.7,0,11.2-0.3c0.6-0.1,2-0.1,3.2-1.4c1-1,1.3-3.2,1.3-3.2s0.3-2.6,0.3-5.2v-2.4 C32,12.2,31.7,9.6,31.7,9.6z M12.7,20.2l0-9l8.6,4.5L12.7,20.2z"></path>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a href="#0">
+                <svg class="icon" viewBox="0 0 32 32">
+                  <title>Join our Slack channel</title>
+                  <rect x="17" y="1" width="6" height="14" rx="3"></rect>
+                  <rect x="1" y="9" width="14" height="6" rx="3"></rect>
+                  <rect x="17" y="17" width="14" height="6" rx="3"></rect>
+                  <rect x="9" y="17" width="6" height="14" rx="3"></rect>
+                  <path d="M12,1a3,3,0,0,0,0,6h3V4A3,3,0,0,0,12,1Z"></path>
+                  <path d="M1,20a3,3,0,0,0,6,0V17H4A3,3,0,0,0,1,20Z"></path>
+                  <path d="M31,12a3,3,0,0,0-6,0v3h3A3,3,0,0,0,31,12Z"></path>
+                  <path d="M20,31a3,3,0,0,0,0-6H17v3A3,3,0,0,0,20,31Z"></path>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a href="#0">
+                <svg class="icon" viewBox="0 0 32 32">
+                  <title>Follow us on Instagram</title>
+                  <path d="M16,3.7c4,0,4.479.015,6.061.087a6.426,6.426,0,0,1,4.51,1.639,6.426,6.426,0,0,1,1.639,4.51C28.282,11.521,28.3,12,28.3,16s-.015,4.479-.087,6.061a6.426,6.426,0,0,1-1.639,4.51,6.425,6.425,0,0,1-4.51,1.639c-1.582.072-2.056.087-6.061.087s-4.479-.015-6.061-.087a6.426,6.426,0,0,1-4.51-1.639,6.425,6.425,0,0,1-1.639-4.51C3.718,20.479,3.7,20.005,3.7,16s.015-4.479.087-6.061a6.426,6.426,0,0,1,1.639-4.51A6.426,6.426,0,0,1,9.939,3.79C11.521,3.718,12,3.7,16,3.7M16,1c-4.073,0-4.584.017-6.185.09a8.974,8.974,0,0,0-6.3,2.427,8.971,8.971,0,0,0-2.427,6.3C1.017,11.416,1,11.927,1,16s.017,4.584.09,6.185a8.974,8.974,0,0,0,2.427,6.3,8.971,8.971,0,0,0,6.3,2.427c1.6.073,2.112.09,6.185.09s4.584-.017,6.185-.09a8.974,8.974,0,0,0,6.3-2.427,8.971,8.971,0,0,0,2.427-6.3c.073-1.6.09-2.112.09-6.185s-.017-4.584-.09-6.185a8.974,8.974,0,0,0-2.427-6.3,8.971,8.971,0,0,0-6.3-2.427C20.584,1.017,20.073,1,16,1Z"></path>
+                  <path d="M16,8.3A7.7,7.7,0,1,0,23.7,16,7.7,7.7,0,0,0,16,8.3ZM16,21a5,5,0,1,1,5-5A5,5,0,0,1,16,21Z"></path>
+                  <circle cx="24.007" cy="7.993" r="1.8"></circle>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </section>
+      </aside>
+      <!-- //main-->
+      <main class="col-9@sm">
+        <section class="feature-v12 feature-v12--top feature-v12--offset-sm feature-v12--offset-lg@xl padding-y-xl">
+          <div class="container max-width-adaptive-lg">
+            <div class="grid justify-center">
+              <div class="col-10 col-8@md">
+                <div class="feature-v12__offset-item text-center">
+                  <h1 class="text-xxxl text-anim text-anim--rotate js-text-anim">
+                    Apparently we had reached a <span class="text-anim__wrapper js-text-anim__wrapper"><i class="text-anim__word text-anim__word--in js-text-anim__word">great</i><i class="text-anim__word js-text-anim__word">grand</i><i class="text-anim__word js-text-anim__word">major</i></span> <span style="color:aliceblue">height in the atmosphere</span>
+                  </h1>
+                </div>
+              </div>
+        
+              <div class="">
+                <figure class="feature-v12__bg-item">
+                  <img class="block width-100%" src="../../assets/img/feature-v12-img-2.jpg" alt="Image description">
+                </figure>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- @_1_feature-v6-->
+        <section class="position-relative z-index-1 padding-y-lg">
+          <div class="container max-width-adaptive-lg">
+            <div class="grid gap-lg">
+              <div class="col-6@md">
+                <img class="block width-100% margin-bottom-sm" src="../../assets/img/feature-v6-img-5.svg" alt="Image description">
+        
+                <div class="text-component">
+                  <h4>Feature One</h4>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium assumenda doloribus eos provident modi.</p>
+                  <p><a class="link-fx-2" data-link-fx-clone="Read more" href="detail.html">Learn more</a></p>
+                </div>
+              </div>
+          
+              <div class="col-6@md">
+                <img class="block width-100% margin-bottom-sm" src="../../assets/img/feature-v6-img-5.svg" alt="Image description">
+        
+                <div class="text-component">
+                  <h4>Feature Two</h4>
+                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam distinctio inventore architecto.</p>
+                  <p><a class="link-fx-2" data-link-fx-clone="Read more" href="#0">Learn more</a></p>
+                </div>
+              </div>
+          
+              <div class="col-6@md">
+                <img class="block width-100% margin-bottom-sm" src="../../assets/img/feature-v6-img-5.svg" alt="Image description">
+        
+                <div class="text-component">
+                  <h4>Feature Three</h4>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium assumenda doloribus eos provident modi.</p>
+                  <p><a class="link-fx-2" data-link-fx-clone="Read more" href="#0">Learn more</a></p>
+                </div>
+              </div>
+          
+              <div class="col-6@md">
+                <img class="block width-100% margin-bottom-sm" src="../../assets/img/feature-v6-img-5.svg" alt="Image description">
+        
+                <div class="text-component">
+                  <h4>Feature Four</h4>
+                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam distinctio inventore architecto.</p>
+                  <p><a class="link-fx-2" data-link-fx-clone="Read more" href="#0">Learn more</a></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        
+      </main>
+      <!-- //footer-->
+      <footer class="main-footer border-top position-relative z-index-1 padding-top-xl">
+        <div class="container max-width-lg">
+          <div class="grid gap-lg">
+            <div class="col-3@lg order-2@lg text-right@lg">
+              <a class="main-footer__logo" href="#0">
+                <svg width="104" height="30" viewBox="0 0 104 30"><title>Go to homepage</title><path d="M37.54 24.08V3.72h4.92v16.37h8.47v4zM60.47 24.37a7.82 7.82 0 01-5.73-2.25 8.36 8.36 0 01-2-5.62 8.32 8.32 0 012.08-5.71 8 8 0 015.64-2.18 8.07 8.07 0 015.68 2.2 8.49 8.49 0 012 5.69 8.63 8.63 0 01-1.78 5.38 7.6 7.6 0 01-5.89 2.49zm0-3.67c2.42 0 2.73-3 2.73-4.23s-.31-4.26-2.73-4.26-2.79 3-2.79 4.26.32 4.23 2.82 4.23zM95.49 24.37a7.82 7.82 0 01-5.73-2.25 8.36 8.36 0 01-2-5.62 8.32 8.32 0 012.08-5.71 8.4 8.4 0 0111.31 0 8.43 8.43 0 012 5.69 8.6 8.6 0 01-1.77 5.38 7.6 7.6 0 01-5.89 2.51zm0-3.67c2.42 0 2.73-3 2.73-4.23s-.31-4.26-2.73-4.26-2.8 3-2.8 4.26.31 4.23 2.83 4.23zM77.66 30c-5.74 0-7-3.25-7.23-4.52l4.6-.26c.41.91 1.17 1.41 2.76 1.41a2.45 2.45 0 002.82-2.53v-2.68a7 7 0 01-1.7 1.75 6.12 6.12 0 01-5.85-.08c-2.41-1.37-3-4.25-3-6.66 0-.89.12-3.67 1.45-5.42a5.67 5.67 0 014.64-2.4c1.2 0 3 .25 4.46 2.82V8.81h4.85v15.33a5.2 5.2 0 01-2.12 4.32A9.92 9.92 0 0177.66 30zm.15-9.66c2.53 0 2.81-2.69 2.81-3.91s-.31-4-2.81-4-2.81 2.8-2.81 4 .27 3.91 2.81 3.91zM55.56 3.72h9.81v2.41h-9.81z" fill="var(--color-contrast-higher)"/><circle cx="15" cy="15" r="15" fill="var(--color-primary)"/></svg>
+              </a>
+            </div>
+            
+            <nav class="col-9@lg order-1@lg">
+              <ul class="grid gap-lg">
+                <li class="col-6@xs col-3@md">
+                  <h4 class="margin-bottom-sm text-base@md">Product</h4>
+                  <ul class="grid gap-xs text-sm@md">
+                    <li><a href="#0" class="main-footer__link">Pricing</a></li>
+                    <li><a href="#0" class="main-footer__link">Teams</a></li>
+                    <li><a href="#0" class="main-footer__link">Updates</a></li>
+                    <li><a href="#0" class="main-footer__link">Features</a></li>
+                    <li><a href="#0" class="main-footer__link">Integrations</a></li>
+                    <li><a href="#0" class="main-footer__link">Support</a></li>
+                  </ul>
+                </li>
+      
+                <li class="col-6@xs col-3@md">
+                  <h4 class="margin-bottom-sm text-base@md">Developers</h4>
+                  <ul class="grid gap-xs text-sm@md">
+                    <li><a href="#0" class="main-footer__link">Documentation</a></li>
+                    <li><a href="#0" class="main-footer__link">API reference</a></li>
+                    <li><a href="#0" class="main-footer__link">API status</a></li>
+                    <li><a href="#0" class="main-footer__link">Open source</a></li>
+                  </ul>
+                </li>
+      
+                <li class="col-6@xs col-3@md">
+                  <h4 class="margin-bottom-sm text-base@md">Resources</h4>
+                  <ul class="grid gap-xs text-sm@md">
+                    <li><a href="#0" class="main-footer__link">Tutorials</a></li>
+                    <li><a href="#0" class="main-footer__link">Docs</a></li>
+                    <li><a href="#0" class="main-footer__link">Community</a></li>
+                    <li><a href="#0" class="main-footer__link">Case studies</a></li>
+                    <li><a href="#0" class="main-footer__link">Help center</a></li>
+                  </ul>
+                </li>
+      
+                <li class="col-6@xs col-3@md">
+                  <h4 class="margin-bottom-sm text-base@md">About</h4>
+                  <ul class="grid gap-xs text-sm@md">
+                    <li><a href="#0" class="main-footer__link">Company</a></li>
+                    <li><a href="#0" class="main-footer__link">Customers</a></li>
+                    <li><a href="#0" class="main-footer__link">Careers</a></li>
+                    <li><a href="#0" class="main-footer__link">Education</a></li>
+                    <li><a href="#0" class="main-footer__link">Our story</a></li>
+                    <li><a href="#0" class="main-footer__link">Press kit</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        
+          <div class="flex flex-column border-top padding-y-xs margin-top-lg flex-row@md justify-between@md items-center@md">
+            <div class="margin-bottom-sm margin-bottom-0@md">
+              <div class="text-sm text-xs@md color-contrast-medium flex flex-wrap gap-xs">
+                <span>&copy; myWebsite</span>
+                <a href="#0" class="color-contrast-high">Terms</a>
+                <a href="#0" class="color-contrast-high">Privacy</a>
+              </div>
+            </div>
+      
+            <div class="flex items-center gap-xs">
+              <a href="#0" class="main-footer__social">
+                <svg class="icon block" viewBox="0 0 16 16"><title>Follow us on Twitter</title><g><path d="M16,3c-0.6,0.3-1.2,0.4-1.9,0.5c0.7-0.4,1.2-1,1.4-1.8c-0.6,0.4-1.3,0.6-2.1,0.8c-0.6-0.6-1.5-1-2.4-1 C9.3,1.5,7.8,3,7.8,4.8c0,0.3,0,0.5,0.1,0.7C5.2,5.4,2.7,4.1,1.1,2.1c-0.3,0.5-0.4,1-0.4,1.7c0,1.1,0.6,2.1,1.5,2.7 c-0.5,0-1-0.2-1.5-0.4c0,0,0,0,0,0c0,1.6,1.1,2.9,2.6,3.2C3,9.4,2.7,9.4,2.4,9.4c-0.2,0-0.4,0-0.6-0.1c0.4,1.3,1.6,2.3,3.1,2.3 c-1.1,0.9-2.5,1.4-4.1,1.4c-0.3,0-0.5,0-0.8,0c1.5,0.9,3.2,1.5,5,1.5c6,0,9.3-5,9.3-9.3c0-0.1,0-0.3,0-0.4C15,4.3,15.6,3.7,16,3z"></path></g></svg>
+              </a>
+      
+              <a href="#0" class="main-footer__social">
+                <svg class="icon block" viewBox="0 0 16 16"><title>Follow us on Youtube</title><g><path d="M15.8,4.8c-0.2-1.3-0.8-2.2-2.2-2.4C11.4,2,8,2,8,2S4.6,2,2.4,2.4C1,2.6,0.3,3.5,0.2,4.8C0,6.1,0,8,0,8 s0,1.9,0.2,3.2c0.2,1.3,0.8,2.2,2.2,2.4C4.6,14,8,14,8,14s3.4,0,5.6-0.4c1.4-0.3,2-1.1,2.2-2.4C16,9.9,16,8,16,8S16,6.1,15.8,4.8z M6,11V5l5,3L6,11z"></path></g></svg>
+              </a>
+      
+              <a href="#0" class="main-footer__social">
+                <svg class="icon block" viewBox="0 0 16 16"><title>Follow us on Github</title><g><path  d="M8,0.2c-4.4,0-8,3.6-8,8c0,3.5,2.3,6.5,5.5,7.6 C5.9,15.9,6,15.6,6,15.4c0-0.2,0-0.7,0-1.4C3.8,14.5,3.3,13,3.3,13c-0.4-0.9-0.9-1.2-0.9-1.2c-0.7-0.5,0.1-0.5,0.1-0.5 c0.8,0.1,1.2,0.8,1.2,0.8C4.4,13.4,5.6,13,6,12.8c0.1-0.5,0.3-0.9,0.5-1.1c-1.8-0.2-3.6-0.9-3.6-4c0-0.9,0.3-1.6,0.8-2.1 c-0.1-0.2-0.4-1,0.1-2.1c0,0,0.7-0.2,2.2,0.8c0.6-0.2,1.3-0.3,2-0.3c0.7,0,1.4,0.1,2,0.3c1.5-1,2.2-0.8,2.2-0.8 c0.4,1.1,0.2,1.9,0.1,2.1c0.5,0.6,0.8,1.3,0.8,2.1c0,3.1-1.9,3.7-3.7,3.9C9.7,12,10,12.5,10,13.2c0,1.1,0,1.9,0,2.2 c0,0.2,0.1,0.5,0.6,0.4c3.2-1.1,5.5-4.1,5.5-7.6C16,3.8,12.4,0.2,8,0.2z"></path></g></svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </footer>
+     </div>
+  </div>
+  <!-- //back to top-->
+  <a class="back-to-top js-back-to-top" href="#" data-offset="100" data-duration="300">
+    <svg class="icon" viewBox="0 0 20 20"><polyline points="2 13 10 5 18 13" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/></svg>
+  </a>
+<script src="assets/js/scripts.js"></script>
+</body>
+</html>
