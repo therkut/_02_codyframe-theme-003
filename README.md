@@ -40,9 +40,9 @@ The first command will install the modules the framework requires for compiling 
 
 
 - Optionally, you can use the gulp dist command to:
- - Compress your style file, purge it using PurgeCSS, and copy it to the 'dist' folder;
- - Compress your JS files and copy them to the 'dist' folder;
- - Copy your assets and html files to the 'dist' folder.
+  - Compress your style file, purge it using PurgeCSS, and copy it to the 'dist' folder;
+  - Compress your JS files and copy them to the 'dist' folder;
+  - Copy your assets and html files to the 'dist' folder.
 
 ```
 npm run gulp dist
