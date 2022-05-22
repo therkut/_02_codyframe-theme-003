@@ -4,7 +4,7 @@
 
 _02_codyframe-theme-003 is a free HTML, CSS, JS landing template built using the [CodyHouse Components](https://codyhouse.co/ds/components) and [Framework](https://codyhouse.co/ds/get-started).
 
-This template was created by copying and pasting 26 components, distributed across 5 unique pages. The global styles were defined using the Global Editors. The glue that holds the components together is CodyFrame. Nothing more - not a single extra line of CSS/JS! 🙌
+This template was created by copying and pasting 19 components, distributed across 2 unique pages. The global styles were defined using the Global Editors. The glue that holds the components together is CodyFrame. Nothing more - not a single extra line of CSS/JS! 🙌
 
 [View Demo](https://therkut.github.io/_02_codyframe-theme-003)
 
