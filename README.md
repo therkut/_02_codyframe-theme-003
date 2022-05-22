@@ -48,6 +48,3 @@ A collection of web design tools that allow you to set the style of typography e
 
 [Explore the Theme](https://therkut.github.io/_02_codyframe-theme-003)
 
-## 
-<p><a href="https://www.buymeacoffee.com/therkut" target="_blank" rel="noreferrer"> <img align="left" src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="50" width="210" alt="therkut" /></a>
-<a href="https://ko-fi.com/therkut" target="_blank" rel="noreferrer"> <img align="left" src="https://cdn.ko-fi.com/cdn/kofi3.png?v=3" height="50" width="210" alt="therkut" /></a></p>
