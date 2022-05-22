@@ -1,50 +1,56 @@
+# Codyhouse Framework Trials
 
-# _02_codyframe-theme-003
-A custom CodyFrame theme.
+## _02_codyframe-theme-003 Template by 🐞 CodyHouse
+
+_02_codyframe-theme-003 is a free HTML, CSS, JS landing template built using the [CodyHouse Components](https://codyhouse.co/ds/components) and [Framework](https://codyhouse.co/ds/get-started).
+
+This template was created by copying and pasting 26 components, distributed across 5 unique pages. The global styles were defined using the Global Editors. The glue that holds the components together is CodyFrame. Nothing more - not a single extra line of CSS/JS! 🙌
+
+[View Demo](https://therkut.github.io/_02_codyframe-theme-003)
 
 
-## How to
-Replace the **📁 custom-style** folder of CodyFrame with the one in this repo.
+## CodyHouse UI
+First time you hear about CodyHouse UI? Here are a few links to get started:
 
+- ⚙️ CodyFrame is a lightweight front-end framework for building accessible, bespoke interfaces. ([Learn more](https://codyhouse.co/ds/docs/framework) or [download it on Github](https://github.com/CodyHouse/codyhouse-framework))
+- 📦 CodyHouse Components is a library of accessible, progressively enhanced, HTML, CSS, JS components that work seamlessly with CodyFrame. ([Browse components](https://codyhouse.co/ds/components))
+- 🚀 Global Editors, a collection of web design tools to create and export typography elements, color themes, spacing rules, buttons and forms. ([Explore Globals](https://codyhouse.co/ds/globals))
+- 📝 Documentation, learn how to use CodyFrame and the Components ([View documentation](https://codyhouse.co/ds/get-started))
+
+## Progressive enhancement
+The following script in the `<head>` of the html files:
+
+```html
+<script>document.getElementsByTagName("html")[0].className += " js";</script>
+```
+
+is used in CSS to check if JavaScript is enabled and apply additional style accordingly.
 
 ## Gulp
-CodyFrame includes a Gulp configuration file. To start a project that runs on Gulp, navigate to the framework folder, and run the following two commands:
+The template includes a Gulp file with some basic configurations needed to run a web project based on CodyFrame.
 
-1) Install the node modules
+To use this Gulp configuration file, once you have downloaded the template, make sure to run the following commands in your command line:
 
 ```
 npm install
-```
-
-2) Launch your project on a development server
-
-```
 npm run gulp watch
 ```
 
-⚠️ **Note:** make sure you have [Npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm), [Node](https://nodejs.org/en/download/), and [Git](https://git-scm.com/) installed.
-
-📝 [How to use CodyFrame with Webpack](https://codyhouse.co/ds/docs/framework#webpack)
+The first command will install the modules the framework requires for compiling SCSS into CSS; the second will launch your project on a development server.
 
 
-## CodyFrame
-A lightweight front-end framework for building accessible, bespoke interfaces.
+- Optionally, you can use the gulp dist command to:
+ - Compress your style file, purge it using PurgeCSS, and copy it to the 'dist' folder;
+ - Compress your JS files and copy them to the 'dist' folder;
+ - Copy your assets and html files to the 'dist' folder.
 
-[CodyFrame on Github](https://github.com/CodyHouse/codyhouse-framework) | [Documentation](https://codyhouse.co/ds/get-started)
+```
+npm run gulp dist
+```
 
-## Component Library
+## License
+Check [CodyHouse License page](https://codyhouse.co/license#templates).
 
-A library of accessible, progressively enhanced, HTML, CSS, JS components that work seamlessly with CodyFrame.
-
-[Explore the Components](https://codyhouse.co/ds/components)
-
-## Global Editors
-
-A collection of web design tools that allow you to set the style of typography elements, color themes, spacing rules, buttons, and forms directly in the browser. They generate code is compatible with CodyFrame.
-
-[Explore the Editors](https://codyhouse.co/ds/globals)
-
-## Preview Theme
-
-[Explore the Theme](https://therkut.github.io/_02_codyframe-theme-003)
-
+## Credits
+1. Images: [Unsplash](https://unsplash.com/)
+2. Icons: [Nucleoapp](https://nucleoapp.com/)
